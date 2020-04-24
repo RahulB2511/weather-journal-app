@@ -1,0 +1,116 @@
+body{
+    background: #B6C0D2;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+#app{
+    display: grid;
+    grid-auto-rows: minmax(150px, auto);
+    /* grid-template-columns:  */
+    height:100vh;
+    color: #1C263C;
+    justify-content: center;
+    grid-gap: 1em;
+    font-size: 30px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.holder{
+    display: grid;
+    grid-auto-rows: minmax(20px, auto);
+    justify-content: center;
+    margin:10px;
+}
+
+.entry{
+    background: #9CFF00;
+height: auto;
+font-size: 20px;
+}
+
+#entryHolder{
+
+}
+
+#date{
+
+}
+
+#temp{
+
+}
+
+#content{
+
+}
+
+.headline {
+margin-bottom: 20px;;
+}
+.title{
+
+}
+
+/*  Basic Styling To Override Default For Basic HTML Elements */
+label{
+    display:block;
+    font-size: 27px;
+}
+
+input{
+    display:block;
+    height: 60px;
+    width: 320px;
+    background:#9CFF00;
+    color: #1C263C;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    border: none;
+}
+
+button{
+    width: auto;
+    height: 50px;
+    background: #313C53;
+    color: #FFFFFF;
+    font-size: 26px;
+    font-family: 'Oswald', sans-serif;
+    border: none;
+    box-shadow: 2px 4px #455268;
+}
+
+h1{
+    font-size: 36px;
+}
+
+textarea{
+    background:#9CFF00;
+    color: #1C263C;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+}
+/* Reset style for HTML element on active to have no border*/
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+/* Style for Placeholder Text*/
+::placeholder { /* Firefox, Chrome, Opera */ 
+    color: #1C263C; 
+    font-family: 'Oswald', sans-serif;
+
+} 
+  
+:-ms-input-placeholder { /* Internet Explorer 10-11 */ 
+    color: #1C263C; 
+    font-family: 'Oswald', sans-serif;
+
+} 
+  
+::-ms-input-placeholder { /* Microsoft Edge */ 
+    color: #1C263C; 
+    font-family: 'Oswald', sans-serif;
+
+} 
